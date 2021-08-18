@@ -15,7 +15,7 @@ document.getElementById('login-button').addEventListener('click', function(){
     
 
     if(loginEmail=='sontan@baap.com' && loginPassword=='eww'){
-        location.href="baper-app"
+        location.href="app"
     }else if(loginEmail=='sontan@baap.com' && loginPassword!='eww'){
         errorMessage.innerText = "Please enter a valid password!"
     }else if(loginEmail!='sontan@baap.com' && loginPassword=='eww'){
